@@ -1,15 +1,17 @@
 -- =========================================================
--- PEAKMOTION - SALES PERFORMANCE 
+-- PEAKMOTION - SALES PERFORMANCE ANALYSIS
+-- Analyse YTD réalisée le 18 septembre 2026 
 -- =========================================================
 
+-- Période couverte par les données : 01/01/2025 - 30/09/2026
+-- Période analysée : 01/01/2026 au 18/09/2026
+
+
+-- 0. EXPLORATION DES DONNÉES
 
 SELECT *
 FROM `portfolio-508912.PeakMotion.sales`
 LIMIT 10;
-
-
--- Période couverte par les données
--- 01/01/2025 - 30/09/2026
 
 
 SELECT
@@ -20,10 +22,10 @@ FROM `portfolio-508912.PeakMotion.sales`;
 
 
 
--- Etape 1 : Performance globale des ventes
+-- 1. PERFORMANCE GLOBALE DES VENTES
 -- Quelle est la performance commerciale depuis le début de l'année ?
-
 -- YTD 2026
+
 
 SELECT 
   COUNT(DISTINCT sale_id) AS nb_commande,
@@ -43,9 +45,8 @@ WHERE sale_date >= DATE_TRUNC(CURRENT_DATE(), YEAR)
 
 
 
--- Etape 2 : Évolution et croissance des ventes
+-- 2. ÉVOLUTION ET CROISSANCE DES VENTES
 -- Comment évolue la performance commerciale par rapport à l'année passée ?
-
 -- YTD 2026 vs YTD 2025
 
 
@@ -84,10 +85,10 @@ CROSS JOIN annee_passee AS p;
 
 
 
--- Etape 3 : Performance par région
+-- 3. PERFORMANCE PAR RÉGION
 -- Quelles régions contribuent le plus à la performance commerciale ?
-
 -- YTD 2026 vs YTD 2025
+
 
 WITH performances_region AS (
 
@@ -144,9 +145,8 @@ ORDER BY r.CA DESC;
 
 
 
--- Etape 4 : Performance des commerciaux
+-- 4. PERFORMANCE DES COMMERCIAUX
 -- Comment se répartit la performance entre les sales reps ?
-
 -- YTD 2026 vs YTD 2025
 
 
@@ -207,12 +207,12 @@ ORDER BY c.CA DESC;
 
 
 
--- Etape 5 : Performance produits / catégories
--- Quels produits génèrent CA et rentabilité ?
-
+-- 5. PERFORMANCE PRODUITS / CATÉGORIES
+-- Quels produits et catégories génèrent le plus de CA et de rentabilité ?
 -- YTD 2026 vs YTD 2025
 
 
+-- 5A. Performance des produits
 
 WITH performances_produits AS (
 
@@ -266,7 +266,7 @@ LEFT JOIN `portfolio-508912.PeakMotion.products` AS b ON c.product_id = b.produc
 ORDER BY c.CA DESC;
 
 
-
+-- 5B. Performance des catégories
 
 WITH performances_categories AS (
 
@@ -328,11 +328,12 @@ ORDER BY c.CA DESC;
 
 
 
--- Etape 6 : Impact des remises
+-- 6. IMPACT DES REMISES
 -- Quel est l'impact des réductions sur la performance ?
+-- YTD 2026 
 
--- YTD 2026 // Impact des remises par commercial
 
+-- 6A. Impact des remises par commercial
 
 WITH base_remises AS (
   SELECT
@@ -367,7 +368,7 @@ GROUP BY sales_rep
 ORDER BY taux_remise_global;
 
 
--- YTD 2026 // Impact des remises par catégorie
+-- 6B. Impact des remises par catégorie
 
 WITH base_remises AS (
   SELECT
