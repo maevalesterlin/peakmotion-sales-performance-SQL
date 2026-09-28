@@ -62,11 +62,16 @@ Analyse de l'impact des remises sur le chiffre d'affaires et la marge.
 
 ## 💡 Principaux insights
 
-L'analyse met notamment en évidence une croissance significative du chiffre d'affaires, une progression généralisée des ventes sur les différentes régions et commerciaux, ainsi que des écarts de performance et de rentabilité entre les catégories de produits.
+L'analyse met en évidence une croissance de **21,6 % du chiffre d'affaires** sur la période janvier–septembre 2026, portée par une hausse de **20,6 % des commandes** alors que le nombre de clients ne progresse que de **6 %**. Le taux de marge reste quasiment stable, à **46,62 %**.
 
-L'analyse de l'impact des remises permet également d'identifier leur effet sur la marge.
+La **France** reste le principal marché avec **43,4 % du CA** (+23,9 %), mais la croissance est généralisée aux 5 régions, à l'exception d'une progression plus modérée en **Italie** (+12,5 %). Les **15 commerciaux** affichent tous une hausse de leur chiffre d'affaires.
 
-Les résultats détaillés et les principales conclusions business sont disponibles dans la section dédiée aux insights.
+La catégorie **Running** constitue le principal moteur de l'activité avec **39,2 % du CA**, une croissance de 21,3 % et un taux de marge supérieur à la moyenne (**48,2 %**).
+À l'inverse, **Outdoor** progresse fortement (+23,9 %), mais présente le taux de marge le plus faible (**41,5 %**).
+
+Enfin, les remises réduisent systématiquement le taux de marge, de **1,9 à 2,8 points** selon les catégories et les commerciaux.
+
+Les résultats détaillés et les recommandations business sont disponibles dans le fichier [`business_insights.md`](business_insights.md).
 
 ---
 
