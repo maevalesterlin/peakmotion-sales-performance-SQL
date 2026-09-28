@@ -17,7 +17,7 @@ Malgré cette croissance, le taux de marge reste quasiment stable à **46,62 %**
 
 La croissance de l'activité est donc importante, sans dégradation significative de la marge globale.
 
-La progression beaucoup plus rapide des commandes que du nombre de clients suggère également une hausse de l'activité générée par les clients existants et/ou de leur fréquence d'achat. Une analyse complémentaire du comportement client permettrait d'identifier précisément ce phénomène.
+La progression beaucoup plus rapide des commandes que du nombre de clients suggère également une hausse de l'activité générée par les clients existants et/ou de leur fréquence d'achat. 
 
 <br>
 
@@ -60,8 +60,8 @@ Julie Faure enregistre quant à elle la plus forte progression avec **+33,3 % de
 
 ### Insight
 
-La croissance ne repose donc pas sur un nombre limité de commerciaux : elle est répartie sur l'ensemble de l'équipe.
-Certains commerciaux présentent également une progression du CA supérieure à celle du nombre de commandes, ce qui peut constituer une piste d'analyse autour de l'évolution du panier moyen.
+La croissance ne repose pas sur un nombre limité de commerciaux : elle est répartie sur l'ensemble de l'équipe.
+
 
 <br>
 
@@ -80,7 +80,7 @@ La catégorie **Running** constitue le principal moteur du chiffre d'affaires av
 
 
 Au niveau des produits, **Tempo Carbon** est le premier produit en termes de chiffre d'affaires avec environ **257 K€**, soit **9,3 % du CA global**. Son chiffre d'affaires progresse de **25,9 %**, avec un taux de marge de **44,4 %**.
-D'autres produits importants combinent également croissance et forte rentabilité, notamment :
+D'autres produits importants combinent croissance et forte rentabilité, notamment :
 
 - **AeroRun Elite** : +28,4 % de CA, marge de 49,4 %
 - **TrailGrip 5** : +21,4 % de CA, marge de 50,9 %
@@ -115,7 +115,6 @@ Les remises ont donc un effet mesurable sur la rentabilité brute.
 
 Cependant, les écarts entre commerciaux restent relativement limités : les données ne montrent pas de différence majeure dans les pratiques de remise.
 
-Une analyse complémentaire pourrait permettre d'évaluer si les remises génèrent suffisamment de volume supplémentaire pour compenser leur impact sur la marge.
 
 <br>
 
@@ -123,15 +122,11 @@ Une analyse complémentaire pourrait permettre d'évaluer si les remises génèr
 
 # 🎯 Synthèse
 
-L'analyse YTD met en évidence une **croissance forte et généralisée** de l'activité de PeakMotion, avec une progression du chiffre d'affaires de 21,6 % et une marge globale quasiment stable.
+PeakMotion affiche une croissance forte et généralisée (+21,6 % de CA), avec une marge globale quasiment stable. Pour prolonger cette dynamique tout en préservant la rentabilité, l'entreprise peut s'appuyer sur trois leviers principaux :
 
-La **France** reste le principal marché et le **Running** constitue le principal moteur du chiffre d'affaires.
+- **Capitaliser sur les clients existants**, dont la hausse de la fréquence d'achat semble porter la croissance (commandes +20,6 % contre clients +6 %).
+- **S'appuyer sur le Running**, principal moteur du chiffre d'affaires, qui combine forte contribution et marge supérieure à la moyenne.
+- **Encadrer les remises**, qui réduisent systématiquement la marge, en priorité sur Outdoor, catégorie en forte croissance mais la moins rentable.
 
-L'analyse fait également ressortir plusieurs axes d'investigation :
-
-- la progression du nombre de commandes, nettement supérieure à celle du nombre de clients ;
-- la croissance plus modérée du marché italien ;
-- les différences de rentabilité entre les catégories ;
-- le niveau de marge du produit Tempo Carbon malgré son poids important dans le CA ;
-- l'impact des remises sur la marge.
+Le produit **Tempo Carbon**, premier contributeur au CA mais avec une marge inférieure à la moyenne, constitue parallèlement un point de vigilance.
 
